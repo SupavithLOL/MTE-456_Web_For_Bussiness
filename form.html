@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            color: red;
+        }
+        #tt {
+            color: blue;
+        }
+        .cc {
+            color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+
+    <center><dfsh2>ตัวอย่างแบบฟอร์ม</h2></center>
+    <form action="form2.html" method="post">
+        <label>ชื่อ-นามสกุล :</label>
+        <input type="text" placeholder="FirstName" name="fname"/><br />
+        <label id="tt">E-mail :</label>
+        <input type="email" placeholder="E-mail" name="mail"/><br />
+        <label class="cc">ที่อยู่ :</label>
+        <textarea type="email" placeholder="ที่อยู่" name="address"></textarea><br />
+        <label>เพศ :</label>
+        <input type="radio" name="gender" checked/>male <input type="radio"/>female<br />
+        <label>ประเทศ :</label>
+        <select>
+            <option>Thai</option>
+            <option>Japan</option>
+            <option selected>China</option>
+        </select><br />
+        <label>สิ่งที่สนใจ : </label>
+        <input type="checkbox"/>Cat
+        <input type="checkbox"/>Dog<br />
+
+        <label>ไฟล์แนบ : </label>
+        <input type="file"/><br />
+
+        <input type="button" value="Save"/>
+        <input type="submit" value="Send"/>
+        <button type="reset">Save</button>
+
+    </form>
+
+</body>
+</html>
